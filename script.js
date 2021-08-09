@@ -35,4 +35,5 @@ click.addEventListener("click", function () {
   document.body.style.backgroundColor = `  ${color_flipper[index]}`;
 
   color_name.innerText = color_flipper[index];
+  color_name.style.color = color_name[index];
 });

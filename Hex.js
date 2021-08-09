@@ -45,6 +45,6 @@ click.addEventListener("click", function () {
   }
 
   color_name.innerText = generate_color_name;
+  color_name.style.color = generate_color_name;
   document.body.style.backgroundColor = generate_color_name;
-  console.log(generate_color_name);
 });
