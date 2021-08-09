@@ -4,7 +4,6 @@ let click = document.getElementById("click");
 let display_background_color = document.getElementById(
   "display_background_color"
 );
-let display_color_name = document.getElementById("display_color_name");
 let background_color = document.getElementById("background_color");
 let color_name = document.getElementById("color_name");
 
